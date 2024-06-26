@@ -40,4 +40,11 @@ public class datalogger {
         return memoryHistory;
     }
 
+    public List<Long> getNetworkByteSent(){
+        return SentNetworkHistory;
+    }
+    public List<Long> getNetworkBytesReceived(){
+        return RecNetworkHistory;
+    }
+
 }
